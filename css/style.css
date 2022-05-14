@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* ==================== Border part start===================*/
+#Headerrr{
+    background: rgba(10, 1, 1, 0.486);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 222;
+}
+.logo{
+    width: 200px;
+    float: left;
+    padding-top: 30px;
+}
+.menu{
+    width: 970px;
+    float: left;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 88px;
+    padding-left: 40px;
+    transition: 0.4s;
+}
+.menu ul li a:hover{
+    color: turquoise;
+}
+/* ==================== Border part End===================== */
+/* ===============Banner part start=============== */
+#Banner{
+    background:url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 330px;
+    padding-bottom: 247px;
+    position: relative;
+}
+.banner-text{
+    text-align: center;
+    text-transform: uppercase;
+}
+.banner-text h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.banner-text h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: #fff;
+}
+.banner-text p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+/* =====================Banner part end============= */
+/* ========================About part start ================== */
+.about-text{
+text-align: center;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+.about-text h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #444444;
+}
+.about-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    padding-top: 32px;
+}
+/* ========================About part End ================== */
+/* ========================Service part start============== */
+#servicepart{
+    padding-bottom: 80px;
+}
+.service-head h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444444;
+    padding-bottom: 30px;
+}
+.service-iteam{
+    width: 330px;
+    float: left;
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    padding: 15px;
+    margin-right: 30px;
+}
+.service-iteam img{
+    width: 100%;
+}
+.service-iteam h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #444444;
+    padding-top: 23px;
+    padding-bottom: 17px;
+}
+.service-iteam p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+}
+/* ========================Service part Emd============== */
+/* ========================Galary part start============== */
+#galary{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #2c2c2c;
+}
+.galary-head{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.galary-head h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #d5d5d5;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.galary-head h2::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    left: -113px;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+.galary-head h2::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    right: -113px;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+.gal-iteam1{
+    float: left;
+    width: 25%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.gal-iteam1 img{
+    width: 100%;
+}
+.galarybutton{
+    text-align: center;
+}
+.galarybutton a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700px;
+    color: #8e8e8e;
+    display: inline-block;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    border: 1px solid #797979;
+    padding: 16px 20px;
+}
+.galarybutton i{
+    padding-right: 7px;
+}
+/* ========================Galary part end============== */
+/* ============================Jurnal part start============== */
+#jurnalpart{
+    padding-top: 75px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+.jurnal-head{
+    text-align: center;
+    
+}
+
+.jurnal-1{
+    width: 370px;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-right: 30px;
+}
+.brr{
+    margin-right: 0;
+}
+.jurnal-1 span i{
+    padding-right: 5px;
+}
+.jurnal-head h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #444444;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 30px;
+    
+}
+
+.jurnal-head h2::before{
+    width: 100px;
+    height: 1px;
+    content: "";
+    top: 50%;
+   transform: translateY(-50%);
+    left: 191px;
+    position: absolute;
+   background: #d9d9d9;
+    
+}
+.jurnal-head h2::after{
+    width: 100px;
+    height: 1px;
+    content: "";
+    top: 50%;
+   transform: translateY(-50%);
+    right: 191px;
+    position: absolute;
+   background: #d9d9d9;
+    
+}
+
+.jurnal-1 img{
+    width: 100%;
+}
+.jurnal-1 h2{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #444444;
+    padding: 25px 50px 13px;
+}
+.jurnal-1 h4{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    color: #999999;
+    padding-bottom: 20px;
+}
+.jurnal-1 p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    padding: 28px;
+    
+}
+.jurnal-bottom h2 i{
+    float: right;
+    padding-left: 5px;
+    
+}
+.jurnal-bottom h2 a{
+    display: inline-block;
+    border-bottom: 1px solid #28b8d8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #999999;
+    padding-bottom: 5px;
+    
+}
+/* =============================Jurnal part end================ */
+/* ==============================Little partr start============ */
+#little{
+    padding-bottom: 80px;
+}
+.little-about{
+    width: 570px;
+    float: left;
+    margin-right: 30px;
+}
+.little-Menu{
+    width: 570px;
+    float: left;
+}
+.little-head{
+    padding-bottom: 30px;
+}
+.little-head h2{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #444444;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+.little-head h2::after{
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    right: -118px;
+    background: #d9d9d9;
+}
+.little-pic{
+    width: 196px;
+    float: left;
+    margin-right: 30px;
+}
+.little-pic img{
+    width: 100%;
+}
+.little-text{
+    width: 344px;
+    float: left;
+}
+.little-text h4{
+    padding-bottom: 28px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #666666;
+}
+.little-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #666666;
+}
+.little-menu-iteam-img{
+    width: 70px;
+    float: left;
+}
+.little-menu-iteam-text{
+    width: 500px;
+    float: left;
+}
+.little-menu-iteam-text h3{
+    padding-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #444444;
+}
+.little-menu-iteam-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #666666;
+    padding-bottom: 22px;
+}
+
+/* ==============================Little partr End============ */
+/* ==============================Contact part start===========c */
+#contact{
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background: #373737;
+}
+.contact-one{
+    width: 270px;
+    float: left;
+    margin-right: 30px;
+}
+.contact-text-head h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    padding-bottom: 23px;
+}
+.contact-one-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #cacaca;
+    padding-bottom: 30px;
+}
+.contact-one-text ul li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #cacaca;
+    padding-bottom: 9px;
+}
+
+.contact-two{
+    width: 270px;
+    float: left;
+    margin-right: 30px;
+}
+.texrrrr p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #cacaca;
+    padding-bottom: 15px;
+}
+.contact-three{
+    width: 270px;
+    float: left;
+    margin-right: 30px;
+}
+.textrrrrr p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #cacaca;
+    padding-bottom: 15px;
+}
+.contact-four{
+    width: 270px;
+    float: left;
+}
+.textrrrrrrrr p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #cacaca;
+    padding-bottom: 15px;
+}
+/* ==============================Contact part end===========c */
+/* End part */
+#end{
+    padding-top: 52px;
+    padding-bottom: 32px;
+    background: #333333;
+}
+.endpart p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #cacaca;
+}
